@@ -66,6 +66,14 @@ artickle h2 {
     margin-bottom: 4px;
 }
 
+aside {
+    background-color: #000;
+    float: right;
+    margin-left: 5%;
+    width: 47.5%;
+    
+}
+
 footer {
     font-size: 12px;
     padding: 0 10px 0 10px;
