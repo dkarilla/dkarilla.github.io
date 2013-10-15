@@ -1,28 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background: #DDBAE8;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     
 }
+
+/* LAYOUT and FONT RULES */
+
 header {
-    padding: 2%;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-weight: 400;
+    padding: 1%;
     background: #fff;
     margin: 30px;
-}
+    font-size: 16pt;
+    
+   }
+
+
 nav {
+    text-decoration:none;
     padding: 2%;
     background: #fff;
     margin: 30px;
+    font-size: 12pt;
    
 }
 article {
     padding: 2%;
     background:#fff;
     margin: 30px;
+    font-size: 14pt;
 }
 
 footer {
     background: #fff;
     margin: 30px;
+    font-size: 12pt;
     
      
 }
@@ -30,3 +49,45 @@ aside {
     float: right;
     
 }
+
+
+
+/* LINK RULES */
+
+nav a:link, nav a:visited {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:24px;
+    font-weight:400;
+    padding:0 16px;
+    color:#000;
+    text-decoration:none;
+}
+nav a:hover, nav a:active {
+    color:#DDBAE8;
+    text-decoration:underline;
+}
+
+article a:link, article a:visited {
+    color:#000;
+    text-decoration:none;
+}
+
+article a:hover, article a:active {
+    color:#DDBAE8;
+    text-decoration:underline;
+}
+
+footer a:link, nav a:visited {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:18px;
+    font-weight:400;
+    padding:0 16px;
+    color:#000;
+    text-decoration:none;
+}
+footer a:hover, nav a:active {
+    color:#DDBAE8;
+    text-decoration:underline;
+}
+
+

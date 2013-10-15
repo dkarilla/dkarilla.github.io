@@ -4,11 +4,13 @@ body {
     
 }
 header {
+    padding: 1%;
     background: #fff;
     margin: 30px;
-    padding: 2%;
+    font-size: 16pt;
 }
 nav {
+    text-decoration:none;
     background: #fff;
     margin: 30px;
     padding: 2%;
@@ -19,9 +21,45 @@ article {
     padding-top: 2%;
     padding-left: 2%;
     margin: 30px;;
-    
+    font-size: 12pt;
 }
 footer {
     background: #fff;
     margin: 30px;
+    font-size: 12pt;
+}
+
+/* LINK RULES */
+
+nav a:link, nav a:visited {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:24px;
+    font-weight:400;
+    padding:0 16px;
+    color:#000;
+    text-decoration:none;
+}
+nav a:hover, nav a:active {
+    color:#DDBAE8;
+    text-decoration:underline;
+}
+article a:link, article a:visited {
+    color:#000;
+    text-decoration:none;
+}
+article a:hover, article a:active {
+    color:#DDBAE8;
+    text-decoration:underline;
+}
+footer a:link, nav a:visited {
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:18px;
+    font-weight:400;
+    padding:0 16px;
+    color:#000;
+    text-decoration:none;
+}
+footer a:hover, nav a:active {
+    color:#DDBAE8;
+    text-decoration:underline;
 }
