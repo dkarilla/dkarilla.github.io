@@ -70,11 +70,14 @@ aside {
     background-color: #000;
     float: right;
     margin-left: 5%;
+    margin-bottom: 10px;
     width: 47.5%;
     
 }
 
 footer {
+    clear:both;
     font-size: 12px;
     padding: 0 10px 0 10px;
+    
 }
