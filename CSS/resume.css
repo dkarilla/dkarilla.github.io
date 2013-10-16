@@ -2,6 +2,12 @@ body {
     background: #DDBAE8;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+h1 {
+    margin: 30px;
+    padding: 1%;
+}
+
 header {
     padding: 1%;
     background: #fff;
@@ -51,6 +57,7 @@ article a:link, article a:visited {
 article a:hover, article a:active {
     color:#DDBAE8;
     text-decoration:underline;
+    
 }
 
 footer a:link, nav a:visited {

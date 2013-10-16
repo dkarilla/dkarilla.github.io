@@ -24,12 +24,24 @@ header {
 
 
 nav {
+    background: #DDBAE8;
     text-decoration:none;
     padding: 2%;
-    background: #fff;
     margin: 30px;
     font-size: 12pt;
+    border-radius: 10px;
    
+}
+
+nav span { 
+    border-radius: 5px;
+    background:#fff;
+    border: 2px solid #000;
+    margin:inherit;
+    height:inherit;
+    width:inherit;
+    padding: 1%;
+     
 }
 article {
     padding: 2%;
@@ -59,10 +71,10 @@ nav a:link, nav a:visited {
     font-size:24px;
     font-weight:400;
     padding:0 16px;
-    color:#000;
+    color:#DDBAE8;
     text-decoration:none;
 }
-nav a:hover, nav a:active {
+nav span a:hover, nav a:active {
     color:#DDBAE8;
     text-decoration:underline;
 }
