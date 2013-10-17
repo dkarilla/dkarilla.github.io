@@ -2,6 +2,12 @@ body {
     background: #DDBAE8;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
+
+h1 {
+    margin: 30px;
+    padding: 1%;
+}
+
 header {
     padding: 1%;
     background: #fff;
@@ -15,6 +21,7 @@ nav {
     margin: 30px;
     font-size: 12pt;
     border-radius: 10px;
+    text-align:center;
    
 }
 
@@ -34,12 +41,13 @@ article {
     padding-top: 2%;
     padding-left: 2%;
     margin: 30px;
-    font-size: 12pt;
+    font-size: 16px;
 }
 footer {
     background: #fff;
     margin: 30px;
-    font-size: 12pt;
+    font-size: 12px;
+    text-align: center;
     
 }
 

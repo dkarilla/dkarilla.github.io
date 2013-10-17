@@ -7,24 +7,28 @@ body {
 
 /* LAYOUT and FONT RULES */
 
+
+
+h1 {
+    margin: 30px;
+    padding: 1%;
+}
+
 header {
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-weight: 400;
     padding: 1%;
     background: #fff;
     margin: 30px;
     font-size: 16pt;
-    
-   }
-
+}
 
 nav {
     background: #fff;
     text-decoration:none;
     padding: 2%;
     margin: 30px;
-    font-size: 12pt;
-    border-radius: 10px;
+    font-size: 14px;
+    text-align:center;
+    
    
 }
 
@@ -36,19 +40,22 @@ nav span {
     height:inherit;
     width:inherit;
     padding: 1%;
+    
      
 }
 article {
     padding: 2%;
     background:#fff;
     margin: 30px;
-    font-size: 14pt;
+    font-size: 16px;
 }
 
 footer {
     background: #fff;
     margin: 30px;
-    font-size: 12pt
+    font-size: 12px;
+    text-align: center;
+}
 
 
 
@@ -79,7 +86,7 @@ article a:hover, article a:active {
 
 footer a:link, nav a:visited {
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size:18px;
+    font-size:14px;
     font-weight:400;
     padding:0 16px;
     color:#000;
