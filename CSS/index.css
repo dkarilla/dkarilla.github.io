@@ -22,6 +22,7 @@ header {
 }
 
 nav {
+    padding-top: 5%;
     background: #fff;
     text-decoration:none;
     padding: 2%;
@@ -50,7 +51,7 @@ article {
     font-size: 16px;
 }
 
-footer {
+footer { 
     background: #fff;
     margin: 30px;
     font-size: 12px;
