@@ -1,8 +1,3 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 body {
     background: #DDBAE8;
@@ -24,7 +19,7 @@ header {
 
 
 nav {
-    background: #DDBAE8;
+    background: #fff;
     text-decoration:none;
     padding: 2%;
     margin: 30px;
@@ -35,7 +30,7 @@ nav {
 
 nav span { 
     border-radius: 5px;
-    background:#fff;
+    background:#DDBAE8;
     border: 2px solid #000;
     margin:inherit;
     height:inherit;
@@ -53,14 +48,7 @@ article {
 footer {
     background: #fff;
     margin: 30px;
-    font-size: 12pt;
-    
-     
-}
-aside {
-    float: right;
-    
-}
+    font-size: 12pt
 
 
 
