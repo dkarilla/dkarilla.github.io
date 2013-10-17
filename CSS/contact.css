@@ -46,7 +46,7 @@ article {
 footer {
     background: #fff;
     margin: 30px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
     
 }
@@ -75,7 +75,7 @@ article a:hover, article a:active {
 }
 footer a:link, nav a:visited {
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
-    font-size:18px;
+    font-size:14px;
     font-weight:400;
     padding:0 16px;
     color:#000;

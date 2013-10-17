@@ -8,7 +8,7 @@ body {
 /* LAYOUT and FONT RULES */
 
 
-h1 {
+header h1 {
     margin: 30px;
     padding: 1%;
 }
@@ -51,7 +51,7 @@ article {
 footer { 
     background: #fff;
     margin: 30px;
-    font-size: 12px;
+    font-size: 14px;
     text-align: center;
 }
 
