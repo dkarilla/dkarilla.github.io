@@ -49,12 +49,14 @@ article {
     margin: 30px;
     font-size: 16px;
     border-radius: 10px;
+    line-height: 24px;
 }
 
 /* Images */
 
 img {
     float: right;
+    
 }
 
 
