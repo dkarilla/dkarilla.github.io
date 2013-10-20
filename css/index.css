@@ -7,7 +7,8 @@ body {
 /* LAYOUT and FONT RULES */
 
 
-header h1 {
+
+h1 {
     margin: 30px;
     padding: 1%;
 }
@@ -16,7 +17,8 @@ header {
     padding: 1%;
     background: #fff;
     margin: 30px;
-    font-size: 16px;
+    font-size: 16pt;
+    border-radius: 10px;
 }
 nav {
     background: #fff;
@@ -46,6 +48,7 @@ article {
     background:#fff;
     margin: 30px;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 img {
@@ -59,6 +62,7 @@ footer {
     margin: 30px;
     font-size: 14px;
     text-align: center;
+    border-radius: 10px;
 }
 
 

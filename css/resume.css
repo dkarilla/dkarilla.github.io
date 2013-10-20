@@ -15,6 +15,7 @@ header {
     background: #fff;
     margin: 30px;
     font-size: 16pt;
+    border-radius: 10px;
 }
 nav {
     background: #fff;
@@ -35,6 +36,7 @@ nav span {
     height:inherit;
     width:inherit;
     padding: 1%;
+    
      
 }
 article {
@@ -44,12 +46,14 @@ article {
     padding-left: 2%;
     margin: 30px;
     font-size: 16px;
+    border-radius: 10px;
 }
 footer {
     background: #fff;
     margin: 30px;
     font-size: 14px;
     text-align: center;
+    border-radius: 10px;
     
 }
 
