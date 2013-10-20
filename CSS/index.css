@@ -71,10 +71,10 @@ nav a:link, nav a:visited {
     font-size:24px;
     font-weight:400;
     padding:0 16px;
-    color:#DDBAE8;
+    color:#000;
     text-decoration:none;
 }
-nav span a:hover, nav a:active {
+nav a:hover, nav a:active {
     color:#DDBAE8;
     text-decoration:underline;
 }
