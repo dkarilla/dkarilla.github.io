@@ -1,6 +1,6 @@
 body {
     background: #DDBAE8;
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
 }
 
 h1 {
@@ -58,7 +58,7 @@ footer {
 /* LINK RULES */
 
 nav a:link, nav a:visited {
-    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family:"Palatino Linotype", "Book Antiqua", "Palatino", serif;
     font-size:24px;
     font-weight:400;
     padding:0 16px;
