@@ -58,10 +58,16 @@ article {
 
 img {
     float: right;
+    min-width:10%;
+    min-height:10%;
     
 }
 
+/*Video*/
 
+video {
+    float: right;
+}
 
 footer { 
     background: #fff;
@@ -120,6 +126,7 @@ footer a:hover, nav a:active {
     }
  nav {
         text-align:center;
+        
     }
    p {
         clear: left;
@@ -127,4 +134,12 @@ footer a:hover, nav a:active {
         width: 100%;
          
     }
+    img {
+        min-width:50%;
+        min-height:: 50%:
+    }
+        
+    
+    footer {
+        text-align:center;
 }
