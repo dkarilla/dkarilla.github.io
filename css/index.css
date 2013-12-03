@@ -71,9 +71,11 @@ img {
 
 /*Video*/
 
-video {
+.embed {
     float: right;
+    margin-left: 10px;
 }
+
 
 footer { 
     background: #fff;
@@ -130,11 +132,11 @@ footer a:hover, nav a:active {
     h1,h2 {
         text-align: center;
     }
- nav {
+    nav {
         text-align:center;
        
     }
-   p {
+    p {
         clear: left;
         margin-left: 0;
         width: 100%;
@@ -145,13 +147,17 @@ footer a:hover, nav a:active {
         min-height:: 50%:
     }
     
-    div {
-        max-width:50%; 
+    div {        
         
-        
+    }
+    
+    .embed {
+     width: 90%;   
     }
         
     
     footer {
         text-align:center;
+    }
+    
 }
