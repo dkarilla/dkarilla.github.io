@@ -36,7 +36,6 @@ nav span {
     background:#DDBAE8;
     border: 2px solid #000;
     margin:inherit;
-    height:inherit;
     width:inherit;
     padding: 1%;
     
@@ -145,18 +144,30 @@ footer a:hover, nav a:active {
         width: 100%;
        
     }
-  
     
     .embed {
         
     }
         
     .social {
-        width: 50%;
+        width: 100%;
+    }
+    
+    .social img {
+        width: 25%;
+    }
+    
+    header, nav, article, footer {
+        border-radius: 0;
+        margin: 0 20px 0 20px;
+    }
+    
+    header {
+         border-radius: 10px 10px 0 0;   
     }
     
     footer {
         text-align:center;
+        border-radius: 0 0 10px 10px;
     }
-    
 }
