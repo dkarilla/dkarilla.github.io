@@ -101,14 +101,14 @@ nav a:hover, nav a:active {
 }
 
 article a:link {
-    color: #DDBAE8;
-    text-decoration:underline;
+    color: #000;
+    text-decoration:none;
 }
 
 
 article a:visited {
     color:#000;
-    text-decoration:underline;
+    text-decoration:none;
 }
 
 article a:hover, article a:active {
