@@ -60,11 +60,17 @@ article {
     
 }
 
+
 /* Images */
 
 img {
     float: right;
+    margin: 10px;
     
+}
+
+.pic {
+    float:left;
 }
 
 /*Video*/
