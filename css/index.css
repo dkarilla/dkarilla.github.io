@@ -55,8 +55,9 @@ article {
     line-height: 24px;
 }
 
-div {
+.social {
     float: left;
+
     
 }
 
@@ -64,8 +65,6 @@ div {
 
 img {
     float: right;
-    max-height:50%;
-    min-height:: 50%:
     
 }
 
@@ -143,18 +142,18 @@ footer a:hover, nav a:active {
          
     }
     img {
-        max-height:50%;
-        min-height:: 50%:
+        width: 100%;
+       
     }
-    
-    div {        
-        
-    }
+  
     
     .embed {
-     width: 90%;   
+        
     }
         
+    .social {
+        width: 50%;
+    }
     
     footer {
         text-align:center;
