@@ -97,18 +97,27 @@ nav a:link, nav a:visited {
 }
 nav a:hover, nav a:active {
     color:#DDBAE8;
-    text-decoration:underline;
+    text-decoration:none;
 }
 
-article a:link, article a:visited {
-    color:#000;
+article a:link {
+    color: #DDBAE8 ;
     text-decoration:none;
+}
+
+
+article a:visited {
+    color:#000;
+    text-decoration:underline;
 }
 
 article a:hover, article a:active {
     color:#DDBAE8;
     text-decoration:underline;
 }
+    
+ 
+
 
 footer a:link, nav a:visited {
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
