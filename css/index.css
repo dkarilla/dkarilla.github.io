@@ -102,13 +102,13 @@ nav a:hover, nav a:active {
 
 article a:link {
     color: #000;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 
 article a:visited {
     color:#000;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 article a:hover, article a:active {
