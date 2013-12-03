@@ -97,12 +97,12 @@ nav a:link, nav a:visited {
 }
 nav a:hover, nav a:active {
     color:#DDBAE8;
-    text-decoration:none;
+    text-decoration:underline;
 }
 
 article a:link {
-    color: #DDBAE8 ;
-    text-decoration:none;
+    color: #DDBAE8;
+    text-decoration:underline;
 }
 
 
@@ -113,7 +113,7 @@ article a:visited {
 
 article a:hover, article a:active {
     color:#DDBAE8;
-    text-decoration:underline;
+    text-decoration:none;
 }
     
  
